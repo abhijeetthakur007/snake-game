@@ -1,5 +1,6 @@
 import turtle
 import random
+import pygame
 import time
 
 delay=0.1
