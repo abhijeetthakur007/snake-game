@@ -12,15 +12,15 @@ bodies=[]
 
 #getting a screen | canvas
 s=turtle.screen()
-s.title("snake game")
-s.bgcolor("gray")
+s.title("Snake Eater")
+s.bgcolor("black")
 s.setup(width=600,height=600)
 
 #create snake head
 head=turtle.Turtle()
 head.speed(0)
 head.shape("square")
-head.color("white")
+head.color("green")
 head.fillcolor("blue")
 head.penup()
 head.goto(0,0)
